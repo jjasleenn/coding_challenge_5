@@ -1,7 +1,7 @@
 // src/config/swagger.ts
 import swaggerUi from "swagger-ui-express";
 import swaggerJSDoc from "swagger-jsdoc";
-import swaggerOptions from "./swaggerOptions";
+import swaggerOptions from "./swaggerOption";
 
 const swaggerSpec = swaggerJSDoc(swaggerOptions);
 
